@@ -1,0 +1,121 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\beachland.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\beachland.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\forest.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\forest.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\goa.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\goa.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\hills.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\hills.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\kolli.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\kolli.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\koollii.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\koollii.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\manali.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\manali.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\ooty.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\ooty.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\taj.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\taj.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\train.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\train.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\varkala.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\varkala.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Hotels\\accord.jpg",
+      "PackagePath": "staticwebassets\\Hotels\\accord.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Hotels\\keralahotel.jpg",
+      "PackagePath": "staticwebassets\\Hotels\\keralahotel.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\falls.jpg",
+      "PackagePath": "staticwebassets\\Packages\\falls.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\hills.jpg",
+      "PackagePath": "staticwebassets\\Packages\\hills.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\kerala.jpg",
+      "PackagePath": "staticwebassets\\Packages\\kerala.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\keralm.jpg",
+      "PackagePath": "staticwebassets\\Packages\\keralm.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\ooty.jpg",
+      "PackagePath": "staticwebassets\\Packages\\ooty.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Restaurents\\a2b.jpg",
+      "PackagePath": "staticwebassets\\Restaurents\\a2b.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Restaurents\\coal.jpg",
+      "PackagePath": "staticwebassets\\Restaurents\\coal.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Spots\\chembrapeak.jpg",
+      "PackagePath": "staticwebassets\\Spots\\chembrapeak.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Spots\\chuchipaara.jpg",
+      "PackagePath": "staticwebassets\\Spots\\chuchipaara.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Spots\\glassbridge.jpg",
+      "PackagePath": "staticwebassets\\Spots\\glassbridge.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Spots\\kolukumalai.jpg",
+      "PackagePath": "staticwebassets\\Spots\\kolukumalai.jpg"
+    },
+    {
+      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Spots\\valparai.jpg",
+      "PackagePath": "staticwebassets\\Spots\\valparai.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Kanini Tourism.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Kanini Tourism.props",
+      "PackagePath": "build\\Kanini Tourism.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Kanini Tourism.props",
+      "PackagePath": "buildMultiTargeting\\Kanini Tourism.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Kanini Tourism.props",
+      "PackagePath": "buildTransitive\\Kanini Tourism.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

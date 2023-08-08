@@ -1,0 +1,8 @@
+.spot-card:hover h1 {
+    display: none;
+  }
+
+
+  .spot-card:hover {
+    box-shadow: 3px 3px 3px 3px rgba(238, 100, 121, 0.8);
+  }

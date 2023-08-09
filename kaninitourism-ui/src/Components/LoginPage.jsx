@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import TextField from '@mui/material/TextField';
 import axios from 'axios';
@@ -9,17 +9,52 @@ const Login = () => {
   const [userEmail, setUserEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isButtonEnabled, setIsButtonEnabled] = useState(false);
+  const [emailError, setEmailError] = useState("");
+  const [passwordError, setPasswordError] = useState("");
   const navigate = useNavigate();
 
   const handleEmailChange = (event) => {
-    setUserEmail(event.target.value);
-    updateButtonStatus(event.target.value, password);
+    const emailValue = event.target.value;
+    setUserEmail(emailValue);
+    updateButtonStatus(emailValue, password);
   };
 
   const handlePasswordChange = (event) => {
-    setPassword(event.target.value);
-    updateButtonStatus(userEmail, event.target.value);
+    const passwordValue = event.target.value;
+    setPassword(passwordValue);
+    updateButtonStatus(userEmail, passwordValue);
   };
+  const validateEmail = (email) => {
+    if (!email.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i)) {
+      setEmailError("Invalid email address");
+      return false;
+    }
+    setEmailError("");
+    return true;
+  };
+
+  const validatePassword = (pass) => {
+    if (
+      pass.length < 8 ||
+      !pass.match(/[A-Z]/) ||
+      !pass.match(/[0-9]/) ||
+      !pass.match(/[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]+/)
+    ) {
+      setPasswordError(
+        "Password must be at least 8 characters and contain uppercase, lowercase, number, and special character."
+      );
+      return false;
+    }
+    setPasswordError("");
+    return true;
+  };
+
+  useEffect(() => {
+    const isEmailValid = validateEmail(userEmail);
+    const isPasswordValid = validatePassword(password);
+
+    setIsButtonEnabled(isEmailValid && isPasswordValid);
+  }, [userEmail, password]);
 
 
 
@@ -112,6 +147,9 @@ const Login = () => {
                 style={{ width: '100%' }}
                 value={userEmail}
                 onChange={handleEmailChange}
+                error={!!emailError}
+                helperText={emailError}
+             
               />
 
             </div>
@@ -124,6 +162,9 @@ const Login = () => {
                 style={{ width: '100%' }}
                 value={password}
                 onChange={handlePasswordChange}
+                error={!!passwordError}
+                helperText={passwordError}  
+           
               />
 
             </div>

@@ -38,12 +38,17 @@ const SignUp = () => {
   const handleRoleChange = (event) => {
     setRole(event.target.value);
   };
+  const [agency_Name, setAgencyName] = useState('');
+
+  const handleAgencyNameChange = (event) => {
+    setAgencyName(event.target.value);
+  };
 
   const handleSignUp = async (event) => {
     event.preventDefault();
     console.log("Signup button clicked!"); // Add this console log
 
-    const userData = { userName, userEmail, password, role, phone_Number };
+    const userData = { userName, userEmail, password, role, phone_Number ,agency_Name};
 
     try {
       console.log('Sending signup request with data:', userData); // Add this console log
@@ -139,6 +144,19 @@ const SignUp = () => {
                 </FormControl>
               </Box>
             </div>
+            {role === 'Agent' && (
+              <div className="input-group mb-3">
+                <TextField
+                  id="outlined-agency-name-input"
+                  label="Agency Name"
+                  type="text"
+                  autoComplete="current-agency-name"
+                  style={{ width: '100%' }}
+                  value={agency_Name}
+                  onChange={handleAgencyNameChange}
+                />
+              </div>
+            )}
             <div className="input-group mb-3">
               <TextField
                 id="outlined-phone-input"

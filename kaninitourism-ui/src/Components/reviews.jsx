@@ -24,13 +24,13 @@ const Reviews = () => {
               <FontAwesomeIcon icon={faStarHalfAlt} />
             </div>
             <p className="text">
-              [Hospital Name], we offer a wide range of medical specialties and treatments, [Hospital Name], we offer a
-              wide range of medical specialties and treatments,
+            Unveil the world's wonders with us! Explore captivating destinations, immerse in diverse cultures, and create cherished memories that last a lifetime. Let the journey of a lifetime begin!
+                    
             </p>
           </div>
           <div className="box">
             <img src={rimage} alt="Client" />
-            <h3>Dhee</h3>
+            <h3>Adhi</h3>
             <div className="stars">
               <FontAwesomeIcon icon={faStar} />
               <FontAwesomeIcon icon={faStar} />
@@ -39,13 +39,13 @@ const Reviews = () => {
               <FontAwesomeIcon icon={faStarHalfAlt} />
             </div>
             <p className="text">
-              [Hospital Name], we offer a wide range of medical specialties and treatments, [Hospital Name], we offer a
-              wide range of medical specialties and treatments,
+            Unveil the world's wonders with us! Explore captivating destinations, immerse in diverse cultures, and create cherished memories that last a lifetime. Let the journey of a lifetime begin!
+                    
             </p>
           </div>
           <div className="box">
             <img src={rimage} alt="Client" />
-            <h3>Dhee</h3>
+            <h3>Hari</h3>
             <div className="stars">
               <FontAwesomeIcon icon={faStar} />
               <FontAwesomeIcon icon={faStar} />
@@ -54,8 +54,8 @@ const Reviews = () => {
               <FontAwesomeIcon icon={faStarHalfAlt} />
             </div>
             <p className="text">
-              [Hospital Name], we offer a wide range of medical specialties and treatments, [Hospital Name], we offer a
-              wide range of medical specialties and treatments,
+            Unveil the world's wonders with us! Explore captivating destinations, immerse in diverse cultures, and create cherished memories that last a lifetime. Let the journey of a lifetime begin!
+                
             </p>
           </div>
         </div>

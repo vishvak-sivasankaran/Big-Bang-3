@@ -9,10 +9,10 @@ const About = () => {
       <div className="row">
         <div className="content">
           <h3>we take care of your travel life</h3>
-          <p>[Hospital Name], we offer a wide range of medical specialties and treatments,
-              [Hospital Name], we offer a wide range of medical specialties and treatments,</p>
-          <p>[Hospital Name], we offer a wide range of medical specialties and treatments,
-              [Hospital Name], we offer a wide range of medical specialties and treatments,</p>
+          <p>  Unveil the world's wonders with us! Explore captivating destinations,
+             immerse in diverse cultures, and create cherished memories that last a lifetime. Let the 
+             journey of a lifetime begin!
+                    </p>
           <a href="#about" className="btn">learn more<span className="fas fa-chevron-right"></span></a>
         </div>
         <div className="image">

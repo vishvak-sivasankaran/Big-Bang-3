@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { TextField, Button, Stack } from '@mui/material';
 import Viewspot from './viewspot';
+import Agentnav from './Agentnav';
+import Footer from '../Footer';
 
 
 const Spot = () => {
@@ -39,8 +41,9 @@ const Spot = () => {
 
     return (
         <div>
+            <Agentnav />
         <React.Fragment>
-            <h2>Spot</h2>
+        <h1 className="heading">Add <span>Spots</span></h1>
             <form onSubmit={handleSubmit}>
                
                     <TextField
@@ -96,6 +99,7 @@ const Spot = () => {
         </React.Fragment>
         <br></br>
         <Viewspot/>
+        <Footer />
         </div>
     )
 }

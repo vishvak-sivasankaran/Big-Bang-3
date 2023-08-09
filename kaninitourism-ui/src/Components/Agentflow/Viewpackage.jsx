@@ -91,16 +91,7 @@ const Viewpackage = () => {
     }
   };
 
-//   const handleOpenPDF = () => {
-//     if (uploadedFileData.length > 0) {
-//       const doc = <PDFView data={uploadedFileData} />;
-//       pdf(doc).toBlob().then((blob) => {
-//         const url = URL.createObjectURL(blob);
-//         window.open(url);
-//       });
-//     }
-    
-//   };
+
 
   return (
     <div>
@@ -108,29 +99,13 @@ const Viewpackage = () => {
         View Package
       </Button>&nbsp;&nbsp;
 
-      {/* {uploadedFileData.length > 0 && (
-        <>
-        <PDFDownloadLink document={<PDFView data={uploadedFileData} />} fileName="tour_details.pdf">
-          {({ blob, url, loading, error }) =>
-            loading ? 'Loading document...' : (
-              <Button variant="outlined" color="primary">
-                Download PDF
-              </Button>
-            )
-          }
-        </PDFDownloadLink>
-    &nbsp;&nbsp;
-        <Button variant="outlined" color="primary" onClick={handleOpenPDF}>
-          Open PDF
-        </Button>
-        </>
-      )} */}
+
 
 
       {uploadedFileData.length > 0 && (
         <div>
           <br />
-          <h3>Package Details</h3>
+          <h1 className="heading">Packages <span>Details</span></h1>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
             {uploadedFileData.map((item, index) => (
               <Card key={index} >

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Kanini_Tourism.Migrations
 {
     /// <inheritdoc />
-    public partial class tour : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -76,7 +76,7 @@ namespace Kanini_Tourism.Migrations
                 columns: table => new
                 {
                     FeedId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1000, 1"),
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Rating = table.Column<int>(type: "int", nullable: false),
@@ -99,7 +99,7 @@ namespace Kanini_Tourism.Migrations
                 columns: table => new
                 {
                     PackageId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "100, 1"),
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     PackageName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Destination = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PriceForAdult = table.Column<int>(type: "int", nullable: false),
@@ -125,7 +125,7 @@ namespace Kanini_Tourism.Migrations
                 columns: table => new
                 {
                     HotelId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "200, 1"),
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     HotelName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Location = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     HotelImage = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -147,7 +147,7 @@ namespace Kanini_Tourism.Migrations
                 columns: table => new
                 {
                     RestaurentId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "300, 1"),
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     RestaurentName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     RestaurentImage = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Location = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -169,7 +169,7 @@ namespace Kanini_Tourism.Migrations
                 columns: table => new
                 {
                     SpotId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "400, 1"),
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     SpotName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Location = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -192,7 +192,7 @@ namespace Kanini_Tourism.Migrations
                 columns: table => new
                 {
                     BookingId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "500, 1"),
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Phone_Number = table.Column<double>(type: "float", nullable: false),

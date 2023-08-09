@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Adminnav from './Adminnav';
+import Footer from '../Footer';
 
 const ImageGalleryPost= () => {
   const [file, setFile] = useState();
@@ -69,12 +70,11 @@ const ImageGalleryPost= () => {
   });
   return (
     <div>
-      <Adminnav />
-        <Card sx={{ minWidth: 275 }}>
-        <CardContent>
-      <input type="file" onChange={saveFile} />
-      <Button variant="contained" color="#16" onClick={uploadFile}>Upload</Button>&nbsp;
-      <Button variant="outlined" color="secondary" onClick={getFileData}>View Gallery</Button>
+      <Adminnav /><br></br>   <br></br>   <br></br>  
+   
+      <input type="file"  onChange={saveFile} />
+      <Button variant="contained" color="success" onClick={uploadFile}>Upload</Button>&nbsp;
+      <Button variant="outlined" color="warning" onClick={getFileData}>View Gallery</Button>
       {uploadedFileData.length > 0 && (
         <div>
           
@@ -84,14 +84,13 @@ const ImageGalleryPost= () => {
             <Carousel activeIndex={activeIndex} next={next} previous={previous}>
               <CarouselIndicators items={uploadedFileData} activeIndex={activeIndex} onClickHandler={() => {}} />
               {slides}
-              <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
-              <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+             
             </Carousel>
           </div>
         </div>
       )}
-      </CardContent>
-      </Card>
+   
+    
     </div>
   );
 };

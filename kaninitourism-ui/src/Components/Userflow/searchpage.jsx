@@ -9,6 +9,8 @@ import Button from '@mui/material/Button';
 import '../Userflow/search.css';
 import axios from "axios";
 import NearMeIcon from '@mui/icons-material/NearMe';
+import Usernav from "./Usernav";
+import Footer from "../Footer";
 
 
 
@@ -43,13 +45,13 @@ const Searchpage =()=>{
         <div>
          
         <div style={{textAlign:"center"}}>
-           
-            <br></br>
-            <FormControl sx={{ m: 1, minWidth: 120}}>
-                <InputLabel htmlFor="grouped-select"><NearMeIcon/> Trip To</InputLabel>
+            <Usernav />
+            <br></br><br></br><br></br>
+            <FormControl sx={{ m: 1, minWidth: 700}}>
+                <InputLabel htmlFor="grouped-select"> search here</InputLabel>
                 <Select value={selectedOption} onChange={handleSelectChange} defaultValue="" id="grouped-select" label="Grouping">
                     <ListSubheader>Kerala</ListSubheader>
-                    <MenuItem value="ooty">Wayanad</MenuItem>
+                    <MenuItem value="ooty">Ooty</MenuItem>
                     <MenuItem value="Munnar">Munnar</MenuItem>
                     <ListSubheader>Delhi</ListSubheader>
                     <MenuItem value="Dubai">Dubai</MenuItem>
@@ -58,12 +60,11 @@ const Searchpage =()=>{
             </FormControl>
 
            
-            <Button variant="contained"style={{backgroundColor:"#e7afb7",width:100,height:50,top:10}} onClick={getFileData}>Search</Button>
+            <Button variant="contained"style={{backgroundColor:"#16a085",width:100,height:50,top:10}} onClick={getFileData}>Search</Button>
         </div>
         <br></br>
         <br></br>
- 
-     
+        <Footer />
         </div>
     );
 };

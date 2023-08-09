@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Carousel, CarouselItem, CarouselControl, CarouselIndicators } from 'reactstrap';
+import Usernav from './Usernav';
+import Footer from '../Footer';
 
 
 const Gallery = () => {
@@ -52,8 +54,9 @@ const Gallery = () => {
     <div>
       {uploadedFileData.length > 0 && (
         <div>
+          <Usernav />
           <br />
-          <h3>Image Gallery</h3>
+          <h1 className="heading">Image <span>Gallery</span></h1>
           <div style={{ maxWidth: '650px', height: '600px', margin: '0 auto' }}>
             <Carousel activeIndex={activeIndex} next={next} previous={previous}>
               <CarouselIndicators items={uploadedFileData} activeIndex={activeIndex} onClickHandler={() => {}} />

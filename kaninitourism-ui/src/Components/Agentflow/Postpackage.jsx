@@ -1,5 +1,9 @@
 import React, { useState ,useEffect} from 'react';
 import { TextField, Button, Stack } from '@mui/material';
+import '../../App.css';
+import Footer from '../Footer';
+import Agentnav from './Agentnav';
+import Viewpackage from './Viewpackage';
 
 const Package = () => {
     const [packageName, setPackageName] = useState('');
@@ -50,10 +54,12 @@ const Package = () => {
       }, []);
 
     return (
-        <div>
+        
+        <div className="package-container">
+            <Agentnav />
         <React.Fragment>
-            <h2>Package</h2>
-            <form onSubmit={handleSubmit}>
+        <h1 className="heading">Add <span>Packages</span></h1>
+            <form onSubmit={handleSubmit} className="package-form">
                 <Stack spacing={2} direction="row" sx={{ marginBottom: 4 }}>
                     <TextField
                         type="text"
@@ -128,13 +134,16 @@ const Package = () => {
                 />
                 <br></br>
                 <br></br>
-                <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <div className="form-actions" style={{ display: 'flex', justifyContent: 'center' }}>
                     <Button variant="outlined" color="secondary" type="submit">Post Package</Button>
                 </div>
             </form>
 
         </React.Fragment>
+        <Viewpackage />
         <br></br>
+
+        <Footer />
         </div>
     )
 }

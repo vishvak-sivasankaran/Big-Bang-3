@@ -11,6 +11,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Button from '@mui/material/Button';
 import bgImage from "../../assets/home.jpg";
 import Checkbox from '@mui/material/Checkbox';
+import Usernav from "./Usernav";
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
@@ -46,40 +47,16 @@ const Viewpage = () => {
 
   return (
     <div>
-      <Box sx={{ flexGrow: 1 }} >
-        <AppBar position="static" style={{ backgroundColor: '#e7afb7' }}>
-          <Toolbar>
-            <ArrowBackIcon
-              size="large"
-              edge="start"
-              color="inherit"
-              aria-label="menu"
-              onClick={handleSideNavClick}
-              sx={{ mr: 2 }}
-            >
-              <MenuIcon />
-            </ArrowBackIcon>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              Make Your Trip
-            </Typography>
-          </Toolbar>
-        </AppBar>
-      </Box>
-      <br></br>
+     <Usernav />
       <Box position="relative" textAlign="center" style={{ width: "100%", height: 200, paddingTop: "1%" }}>
-        <img src={bgImage} style={{ width: "100%", height: 250 }} alt="Image" />
         <Box position="absolute" top="30%" left="30%" transform="translate(-50%, -50%)" color="white" fontSize={{ xs: 20, sm: 50 }} fontWeight={600}>
           <p className='Head'> {selectedOption}</p>
         </Box>
 
       </Box>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
       <table >
 
-        <td style={{ width: 800 }}>
+        <td style={{ width: 400 , }}>
 
 
           <div >

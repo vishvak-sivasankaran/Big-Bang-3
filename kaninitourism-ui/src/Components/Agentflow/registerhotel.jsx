@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { TextField, Button, Stack } from '@mui/material';
 import Viewhotel from './viewhotel';
+import Agentnav from './Agentnav';
+import Footer from '../Footer';
 
 
 const Hotel = () => {
@@ -37,8 +39,9 @@ const Hotel = () => {
 
     return (
         <div>
+            <Agentnav />
         <React.Fragment>
-            <h2>Hotel</h2>
+        <h1 className="heading">Add <span>Hotels</span></h1>
             <form onSubmit={handleSubmit}>
                
                     <TextField
@@ -80,6 +83,7 @@ const Hotel = () => {
         </React.Fragment>
          <br></br>
          <Viewhotel/>
+         <Footer />
          </div>
     )
 }

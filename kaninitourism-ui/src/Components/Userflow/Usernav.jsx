@@ -12,15 +12,13 @@ const Usernav = () => {
     <div>
         <div>
             <nav className="navbar">
-            <Link to="/homepage" className="logo">
+            <Link to="/home" className="logo">
           <FontAwesomeIcon icon={faMountainSun} /> Make Your Trip
           </Link>
-                <Link to="/homepage">Home</Link>
-                <Link to="/ourservices">Services</Link>
-                <Link to="/viewpackage">packages</Link>
-                <Link to="/about">About</Link>
-                <Link to="/reviews">Reviews</Link>
-                <Link to="/index">Logout</Link>
+                <Link to="/home">Home</Link>
+                <Link to="/searchpage">Book</Link>
+                <Link to="/gallery">Gallery</Link>
+                <Link to="/">Logout</Link>
             </nav>
         </div>
     </div>

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\kanini training\\C#\\Kanini Tourism\\Tourism\\Tourism.csproj": {}
+    "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Tourism\\Tourism.csproj": {}
   },
   "projects": {
-    "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\Kanini Tourism.csproj": {
+    "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\Kanini Tourism.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\Kanini Tourism.csproj",
+        "projectUniqueName": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\Kanini Tourism.csproj",
         "projectName": "Kanini Tourism",
-        "projectPath": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\Kanini Tourism.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\obj\\",
+        "projectPath": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\Kanini Tourism.csproj",
+        "packagesPath": "C:\\Users\\vishv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vishv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,6 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -105,24 +106,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\kanini training\\C#\\Kanini Tourism\\Tourism\\Tourism.csproj": {
+    "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Tourism\\Tourism.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\kanini training\\C#\\Kanini Tourism\\Tourism\\Tourism.csproj",
+        "projectUniqueName": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Tourism\\Tourism.csproj",
         "projectName": "Tourism",
-        "projectPath": "D:\\kanini training\\C#\\Kanini Tourism\\Tourism\\Tourism.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\kanini training\\C#\\Kanini Tourism\\Tourism\\obj\\",
+        "projectPath": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Tourism\\Tourism.csproj",
+        "packagesPath": "C:\\Users\\vishv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Tourism\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vishv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -138,8 +139,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\Kanini Tourism.csproj": {
-                "projectPath": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\Kanini Tourism.csproj"
+              "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\Kanini Tourism.csproj": {
+                "projectPath": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\Kanini Tourism.csproj"
               }
             }
           }
@@ -195,7 +196,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

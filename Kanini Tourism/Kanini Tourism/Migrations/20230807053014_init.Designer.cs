@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Kanini_Tourism.Migrations
 {
     [DbContext(typeof(TourDBContext))]
-    [Migration("20230802091610_tour")]
-    partial class tour
+    [Migration("20230807053014_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,11 +43,23 @@ namespace Kanini_Tourism.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("HotelId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("HotelsHotelId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PackageId")
+                        .HasColumnType("int");
+
+                    b.Property<double>("Phone_Number")
+                        .HasColumnType("float");
+
+                    b.Property<int>("RestaurentId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("StartDate")
@@ -61,96 +73,13 @@ namespace Kanini_Tourism.Migrations
 
                     b.HasKey("BookingId");
 
+                    b.HasIndex("HotelsHotelId");
+
+                    b.HasIndex("RestaurentId");
+
                     b.HasIndex("TourPackagePackageId");
 
                     b.ToTable("Bookings");
-                });
-
-            modelBuilder.Entity("Kanini_Tourism.Models.Day2", b =>
-                {
-                    b.Property<int>("Pack_Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Pack_Id"));
-
-                    b.Property<string>("Agency_Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Cost_per_person")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Day1_Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Day1_Hotel")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Day1_Locations")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Day2_Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Day2_Hotel")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Day2_Locations")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Days")
-                        .HasColumnType("int");
-
-                    b.Property<string>("From")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Hotel_Image1")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Hotel_Image2")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Image1")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Image2")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Location")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Pack_Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<double>("Phone_Number")
-                        .HasColumnType("float");
-
-                    b.Property<string>("UserEmail")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Pack_Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Daytwo");
                 });
 
             modelBuilder.Entity("Kanini_Tourism.Models.Dummy", b =>
@@ -184,6 +113,39 @@ namespace Kanini_Tourism.Migrations
                     b.HasKey("UserId");
 
                     b.ToTable("Dummy");
+                });
+
+            modelBuilder.Entity("Kanini_Tourism.Models.Feedback", b =>
+                {
+                    b.Property<int>("FeedId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FeedId"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Rating")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("FeedId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Feedbacks");
                 });
 
             modelBuilder.Entity("Kanini_Tourism.Models.Hotels", b =>
@@ -397,18 +359,34 @@ namespace Kanini_Tourism.Migrations
 
             modelBuilder.Entity("Kanini_Tourism.Models.Booking", b =>
                 {
+                    b.HasOne("Kanini_Tourism.Models.Hotels", "Hotels")
+                        .WithMany()
+                        .HasForeignKey("HotelsHotelId");
+
+                    b.HasOne("Kanini_Tourism.Models.Restaurent", "Restaurents")
+                        .WithMany()
+                        .HasForeignKey("RestaurentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Kanini_Tourism.Models.TourPackage", "TourPackage")
                         .WithMany("Bookings")
                         .HasForeignKey("TourPackagePackageId");
 
+                    b.Navigation("Hotels");
+
+                    b.Navigation("Restaurents");
+
                     b.Navigation("TourPackage");
                 });
 
-            modelBuilder.Entity("Kanini_Tourism.Models.Day2", b =>
+            modelBuilder.Entity("Kanini_Tourism.Models.Feedback", b =>
                 {
                     b.HasOne("Kanini_Tourism.Models.User", "User")
                         .WithMany()
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("User");
                 });

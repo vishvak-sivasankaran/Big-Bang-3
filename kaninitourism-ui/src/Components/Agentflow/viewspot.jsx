@@ -129,7 +129,7 @@ const Viewspot = () => {
       {uploadedFileData.length > 0 && (
         <div>
           <br></br>
-          <h3>Spot Details</h3>
+          <h1 className="heading">Spot <span>Details</span></h1>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
             {uploadedFileData.map((item, index) => (
               <Card key={index} style={{ margin: '10px', maxWidth: '300px' }}>

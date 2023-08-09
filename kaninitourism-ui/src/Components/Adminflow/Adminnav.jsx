@@ -16,7 +16,7 @@ const Adminnav = () => {
                 <Link to="/adminhome">Home</Link>
                 <Link to="/admin">Approval</Link>
                 <Link to="/gallerypost">Gallery</Link>
-                <Link to="/index">Logout</Link>
+                <Link to="/">Logout</Link>
             </nav>
         </div>
     )

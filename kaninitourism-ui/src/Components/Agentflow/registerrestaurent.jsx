@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { TextField, Button, Stack } from '@mui/material';
 import Viewrestaurent from './viewrestaurent';
+import Agentnav from './Agentnav';
+import Footer from '../Footer';
 
 
 const Restaurent = () => {
@@ -37,8 +39,9 @@ const Restaurent = () => {
 
     return (
         <div>
+            <Agentnav />
         <React.Fragment>
-            <h2>Restaurant</h2>
+        <h1 className="heading">Add <span>Restaurents</span></h1>
             <form onSubmit={handleSubmit}>
                 
                     <TextField
@@ -82,6 +85,7 @@ const Restaurent = () => {
         </React.Fragment>
         <br></br>
         <Viewrestaurent/>
+        <Footer />
         </div>
     )
 }

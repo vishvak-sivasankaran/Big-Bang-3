@@ -6,6 +6,7 @@ import Feedback from './Components/Userflow/Feedback';
 import Home from './Components/Home';
 import LoginPage from './Components/LoginPage';
 import RegisterPage from './Components/RegisterPage';
+import ProtectedAdmin from './Components/ProtectedRouting/ProtectedAdminPage';
 import LandingPage from './Components/LandingPage';
 import SignUp from './Components/RegisterPage';
 import Manage from './Components/Adminflow/Admin';
@@ -35,11 +36,12 @@ import Usernav from './Components/Userflow/Usernav';
 
 
 function App() {
+  var token;
   return (
     <div className="App">
    
       <Routes>
-        <Route path="/index" element={<LandingPage />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/feedback" element={<Feedback />} />
@@ -68,7 +70,12 @@ function App() {
        <Route path="/viewpage" element={<Viewpage/>}/>
        <Route path="/reviews" element={<Reviews />}/>
        <Route path="/agentnav" element={<Agentnav />}/>
-       <Route path="/adminhome" element={<Adminhome />}/>
+
+       <Route path="/adminhome" element={
+       <ProtectedAdmin token={token}>
+       <Adminhome />
+       </ProtectedAdmin>
+       }/>
        <Route path="/agenthome" element={<Agenthome />}/>
        <Route path="/adminnav" element={<Adminnav />}/>
        

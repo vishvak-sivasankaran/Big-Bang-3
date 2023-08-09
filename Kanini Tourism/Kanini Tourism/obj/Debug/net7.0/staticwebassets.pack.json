@@ -1,103 +1,399 @@
 {
   "Files": [
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\beachland.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\03124d05-78d4-4bab-bc82-276f09a05502.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\03124d05-78d4-4bab-bc82-276f09a05502.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\09ea8c25-9a4e-4c80-b020-13b6021c0c25.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\09ea8c25-9a4e-4c80-b020-13b6021c0c25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\0f37e948-04f6-4515-8ce5-b8c1d7a32c22.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\0f37e948-04f6-4515-8ce5-b8c1d7a32c22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\122a06d0-f336-43cd-a0cf-9cdf62c1e7cc.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\122a06d0-f336-43cd-a0cf-9cdf62c1e7cc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\14a28df1-50a4-4d65-9707-ff059c42678e.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\14a28df1-50a4-4d65-9707-ff059c42678e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\14fc34a0-37a4-4ecf-9bea-b747679e931b.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\14fc34a0-37a4-4ecf-9bea-b747679e931b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\1617c117-a249-48f2-95b0-f5d224ff4433.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\1617c117-a249-48f2-95b0-f5d224ff4433.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\163df0a3-959a-454d-9ed6-06ad19e4858c.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\163df0a3-959a-454d-9ed6-06ad19e4858c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\1d66c3d9-ba09-4520-bd12-c138362c3f9d.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\1d66c3d9-ba09-4520-bd12-c138362c3f9d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\2014643e-0e2e-4c6a-99d6-beecc722f0ae.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\2014643e-0e2e-4c6a-99d6-beecc722f0ae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\2594f52f-e7d6-4c3a-9dbd-0d9161c3e070.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\2594f52f-e7d6-4c3a-9dbd-0d9161c3e070.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\292884f2-7433-46c5-a949-6ff9c353f177.JPG",
+      "PackagePath": "staticwebassets\\Gallery\\292884f2-7433-46c5-a949-6ff9c353f177.JPG"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\38382857-72b6-43e7-885f-f1afe617ec18.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\38382857-72b6-43e7-885f-f1afe617ec18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\457c663d-d32a-4461-8d36-6ef932b95442.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\457c663d-d32a-4461-8d36-6ef932b95442.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\47597eec-a173-4f76-92db-259fa7a10ba3.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\47597eec-a173-4f76-92db-259fa7a10ba3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\49a7b31d-7515-4f14-af9b-e320c2069b1c.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\49a7b31d-7515-4f14-af9b-e320c2069b1c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\4d4259c3-0b2b-49e5-a6d3-1f99b3a839cc.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\4d4259c3-0b2b-49e5-a6d3-1f99b3a839cc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\57422d1c-700a-40db-8aaf-e54a3b521f65.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\57422d1c-700a-40db-8aaf-e54a3b521f65.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\5d19a4f6-80d5-40f7-82b4-6abd6e7bda4d.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\5d19a4f6-80d5-40f7-82b4-6abd6e7bda4d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\615d34b9-e746-4698-abd8-b0e3388d302f.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\615d34b9-e746-4698-abd8-b0e3388d302f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\7a183dcf-994b-4afe-bb6f-2bc1f4a49359.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\7a183dcf-994b-4afe-bb6f-2bc1f4a49359.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\803e731b-da4f-40ba-b6b4-d28d77d35aa6.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\803e731b-da4f-40ba-b6b4-d28d77d35aa6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\832925f1-3bbf-424e-8774-0a872004c55b.JPG",
+      "PackagePath": "staticwebassets\\Gallery\\832925f1-3bbf-424e-8774-0a872004c55b.JPG"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\8406ac9f-f790-4be0-97ba-e676d2f6e260.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\8406ac9f-f790-4be0-97ba-e676d2f6e260.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\84455d18-e67b-4bdb-a872-de1e6fd9cbaa.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\84455d18-e67b-4bdb-a872-de1e6fd9cbaa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\859e428b-4765-4029-a7e0-02a01227db6b.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\859e428b-4765-4029-a7e0-02a01227db6b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\8702fef9-88bf-48dd-9a3b-8b9316f862ac.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\8702fef9-88bf-48dd-9a3b-8b9316f862ac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\8ce4cd27-de1e-4c68-8e3c-3625dfef2419.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\8ce4cd27-de1e-4c68-8e3c-3625dfef2419.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\8d0bae66-c1ae-41bb-8bc9-64fb7adbcbc9.JPG",
+      "PackagePath": "staticwebassets\\Gallery\\8d0bae66-c1ae-41bb-8bc9-64fb7adbcbc9.JPG"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\90dd0e50-bc8d-4d74-bf22-5f3a9fa693ff.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\90dd0e50-bc8d-4d74-bf22-5f3a9fa693ff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\93a32ee4-a1e1-42b9-91b3-5bb445b87757.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\93a32ee4-a1e1-42b9-91b3-5bb445b87757.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\9afdd3de-cc9d-4bbf-b8b9-58289b549cb1.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\9afdd3de-cc9d-4bbf-b8b9-58289b549cb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\9cc9f5fe-17ed-410e-9a5a-2d85cc2c614c.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\9cc9f5fe-17ed-410e-9a5a-2d85cc2c614c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\9ea6d104-aa20-495b-993f-ad3c1d6f35bf.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\9ea6d104-aa20-495b-993f-ad3c1d6f35bf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\IMG_0568.JPG",
+      "PackagePath": "staticwebassets\\Gallery\\IMG_0568.JPG"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\a051f967-19de-435a-abf6-a840aafe4257.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\a051f967-19de-435a-abf6-a840aafe4257.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\a745e253-9d7f-4de1-bdda-9235a03cbe65.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\a745e253-9d7f-4de1-bdda-9235a03cbe65.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\a748fb97-2b2c-4c39-a1ae-01a24c22adda.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\a748fb97-2b2c-4c39-a1ae-01a24c22adda.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\ad24275d-4641-4511-a531-d663c3a230f6.JPG",
+      "PackagePath": "staticwebassets\\Gallery\\ad24275d-4641-4511-a531-d663c3a230f6.JPG"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\b0098784-c8da-4d2c-b18d-fb5956bb919c.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\b0098784-c8da-4d2c-b18d-fb5956bb919c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\b0a5218a-4307-4ba7-aca5-cf515539b7af.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\b0a5218a-4307-4ba7-aca5-cf515539b7af.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\b9833249-e2ef-4778-b14c-58dfc09e85af.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\b9833249-e2ef-4778-b14c-58dfc09e85af.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\beachland.jpg",
       "PackagePath": "staticwebassets\\Gallery\\beachland.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\forest.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\cd3d4d9f-4446-455a-91d7-ba82f7f0a3cf.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\cd3d4d9f-4446-455a-91d7-ba82f7f0a3cf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\ce41d25b-04db-4e04-86f9-a66df409245a.JPG",
+      "PackagePath": "staticwebassets\\Gallery\\ce41d25b-04db-4e04-86f9-a66df409245a.JPG"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\d0609d55-3dda-4cd0-a56c-5cf35f474bb5.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\d0609d55-3dda-4cd0-a56c-5cf35f474bb5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\d184cf24-27f0-40ef-97d1-1dd759002817.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\d184cf24-27f0-40ef-97d1-1dd759002817.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\d47a2e35-c818-4fdb-af53-f5680f85f5ff.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\d47a2e35-c818-4fdb-af53-f5680f85f5ff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\ddd3328c-57ce-4e89-ab6d-a301a4d2bbd7.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\ddd3328c-57ce-4e89-ab6d-a301a4d2bbd7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\e6dca601-496b-4e27-8b18-b4a5e52f710d.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\e6dca601-496b-4e27-8b18-b4a5e52f710d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\e75dd92e-c320-4d01-8843-aa7203321c83.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\e75dd92e-c320-4d01-8843-aa7203321c83.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\eb864973-523d-4511-8506-e9cfd9bc93ad.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\eb864973-523d-4511-8506-e9cfd9bc93ad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\ec02c548-3217-42cc-9986-1e45c1a03aa7.JPG",
+      "PackagePath": "staticwebassets\\Gallery\\ec02c548-3217-42cc-9986-1e45c1a03aa7.JPG"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\eefd0121-6c18-46e1-82c4-f1c44419bac3.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\eefd0121-6c18-46e1-82c4-f1c44419bac3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\f2effff6-ce87-42e9-920f-b570a08ba2e8.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\f2effff6-ce87-42e9-920f-b570a08ba2e8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\f85133f0-0680-4021-a891-1010d9bee2ac.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\f85133f0-0680-4021-a891-1010d9bee2ac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\fcb2c5fd-98f8-4589-8e7f-a762b855f875.jpg",
+      "PackagePath": "staticwebassets\\Gallery\\fcb2c5fd-98f8-4589-8e7f-a762b855f875.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\forest.jpg",
       "PackagePath": "staticwebassets\\Gallery\\forest.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\goa.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\goa.jpg",
       "PackagePath": "staticwebassets\\Gallery\\goa.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\hills.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\hills.jpg",
       "PackagePath": "staticwebassets\\Gallery\\hills.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\kolli.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\kolli.jpg",
       "PackagePath": "staticwebassets\\Gallery\\kolli.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\koollii.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\koollii.jpg",
       "PackagePath": "staticwebassets\\Gallery\\koollii.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\manali.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\manali.jpg",
       "PackagePath": "staticwebassets\\Gallery\\manali.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\ooty.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\ooty.jpg",
       "PackagePath": "staticwebassets\\Gallery\\ooty.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\taj.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\praveen 32gb 008.JPG",
+      "PackagePath": "staticwebassets\\Gallery\\praveen 32gb 008.JPG"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\praveen 32gb 194.JPG",
+      "PackagePath": "staticwebassets\\Gallery\\praveen 32gb 194.JPG"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\taj.jpg",
       "PackagePath": "staticwebassets\\Gallery\\taj.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\train.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\train.jpg",
       "PackagePath": "staticwebassets\\Gallery\\train.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\varkala.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Gallery\\varkala.jpg",
       "PackagePath": "staticwebassets\\Gallery\\varkala.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Hotels\\accord.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Hotels\\accord.jpg",
       "PackagePath": "staticwebassets\\Hotels\\accord.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Hotels\\keralahotel.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Hotels\\keralahotel.jpg",
       "PackagePath": "staticwebassets\\Hotels\\keralahotel.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\falls.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\07616eb5-aa5c-4663-998a-aa376f8b3b9c.jpg",
+      "PackagePath": "staticwebassets\\Packages\\07616eb5-aa5c-4663-998a-aa376f8b3b9c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\0e0783e6-9cbf-4878-86fd-5243c5a241a8.jpg",
+      "PackagePath": "staticwebassets\\Packages\\0e0783e6-9cbf-4878-86fd-5243c5a241a8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\219efa5b-4c89-418f-b859-91d2942f1002.jpg",
+      "PackagePath": "staticwebassets\\Packages\\219efa5b-4c89-418f-b859-91d2942f1002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\341d883f-2e0f-4978-9ad6-e3ec2014dad0.jpg",
+      "PackagePath": "staticwebassets\\Packages\\341d883f-2e0f-4978-9ad6-e3ec2014dad0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\349d18e6-9408-4c8c-97f0-606738e31b2e.jpg",
+      "PackagePath": "staticwebassets\\Packages\\349d18e6-9408-4c8c-97f0-606738e31b2e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\60aa39c1-0809-4725-a338-acbdfdc6e8f8.jpg",
+      "PackagePath": "staticwebassets\\Packages\\60aa39c1-0809-4725-a338-acbdfdc6e8f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\717eb375-254b-4353-ad9b-b1581b0d2c05.jpg",
+      "PackagePath": "staticwebassets\\Packages\\717eb375-254b-4353-ad9b-b1581b0d2c05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\7291f482-7c6b-4cb3-8546-b636403ee2c2.jpg",
+      "PackagePath": "staticwebassets\\Packages\\7291f482-7c6b-4cb3-8546-b636403ee2c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\92dabb32-2c58-4d03-afca-6cd3b275bb8b.jpg",
+      "PackagePath": "staticwebassets\\Packages\\92dabb32-2c58-4d03-afca-6cd3b275bb8b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\a4682ffb-059e-41c1-b346-7543a4018b9b.jpg",
+      "PackagePath": "staticwebassets\\Packages\\a4682ffb-059e-41c1-b346-7543a4018b9b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\adventure.jpg",
+      "PackagePath": "staticwebassets\\Packages\\adventure.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\avatar.jpg",
+      "PackagePath": "staticwebassets\\Packages\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\b009b7ff-9db8-4dfc-9efd-f961da19c51c.jpg",
+      "PackagePath": "staticwebassets\\Packages\\b009b7ff-9db8-4dfc-9efd-f961da19c51c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\b8a2a507-e821-4c9e-a23c-39b98de1d231.jpg",
+      "PackagePath": "staticwebassets\\Packages\\b8a2a507-e821-4c9e-a23c-39b98de1d231.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\d3ad4ef9-209a-4e1f-a584-7a889406d30d.jpg",
+      "PackagePath": "staticwebassets\\Packages\\d3ad4ef9-209a-4e1f-a584-7a889406d30d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\faa2b744-7c98-4988-a464-b6eac5db3d89.jpg",
+      "PackagePath": "staticwebassets\\Packages\\faa2b744-7c98-4988-a464-b6eac5db3d89.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\falls.jpg",
       "PackagePath": "staticwebassets\\Packages\\falls.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\hills.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\hills.jpg",
       "PackagePath": "staticwebassets\\Packages\\hills.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\kerala.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\kerala.jpg",
       "PackagePath": "staticwebassets\\Packages\\kerala.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\keralm.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\keralm.jpg",
       "PackagePath": "staticwebassets\\Packages\\keralm.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\ooty.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Packages\\ooty.jpg",
       "PackagePath": "staticwebassets\\Packages\\ooty.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Restaurents\\a2b.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Restaurents\\a2b.jpg",
       "PackagePath": "staticwebassets\\Restaurents\\a2b.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Restaurents\\coal.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Restaurents\\coal.jpg",
       "PackagePath": "staticwebassets\\Restaurents\\coal.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Spots\\chembrapeak.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Spots\\chembrapeak.jpg",
       "PackagePath": "staticwebassets\\Spots\\chembrapeak.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Spots\\chuchipaara.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Spots\\chuchipaara.jpg",
       "PackagePath": "staticwebassets\\Spots\\chuchipaara.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Spots\\glassbridge.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Spots\\glassbridge.jpg",
       "PackagePath": "staticwebassets\\Spots\\glassbridge.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Spots\\kolukumalai.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Spots\\kolukumalai.jpg",
       "PackagePath": "staticwebassets\\Spots\\kolukumalai.jpg"
     },
     {
-      "Id": "D:\\kanini training\\C#\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Spots\\valparai.jpg",
+      "Id": "C:\\Users\\vishv\\OneDrive\\Desktop\\BB3\\BigBang_Tourism\\Kanini Tourism\\Kanini Tourism\\wwwroot\\Spots\\valparai.jpg",
       "PackagePath": "staticwebassets\\Spots\\valparai.jpg"
     },
     {

@@ -9,15 +9,15 @@ const Agentnav = () => {
     return (
         <div>
             <nav className="navbar">
-            <Link to="/homepage" className="logo">
+            <Link to="/agenthome" className="logo">
           <FontAwesomeIcon icon={faMountainSun} /> Make Your Trip
           </Link>
-                <Link to="/homepage">Home</Link>
-                <Link to="/ourservices">Services</Link>
-                <Link to="/viewpackage">packages</Link>
-                <Link to="/about">About</Link>
-                <Link to="/reviews">Reviews</Link>
-                <Link to="/index">Logout</Link>
+                <Link to="/agenthome">Home</Link>
+                <Link to="/postpackage">Package</Link>
+                <Link to="/registerhotel">Hotels</Link>
+                <Link to="/registerrestaurents">Restaurents</Link>
+                <Link to="/registerspot">Spots</Link>
+                <Link to="/">Logout</Link>
             </nav>
         </div>
     )
